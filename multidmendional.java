@@ -138,7 +138,7 @@ public class multidmendional {
             //System.out.println();
         }
         //System.out.println(mainList);
-     /*  ArrayList<ArrayList<Integer>> compList=new ArrayList<>();
+       ArrayList<ArrayList<Integer>> compList=new ArrayList<>();
         //multiArray(compList);
         ArrayList<Integer> height=new ArrayList<>();
         //1,8,6,2,5,4,8,3,7
@@ -150,9 +150,9 @@ public class multidmendional {
         height.add(4);
         height.add(8);
         height.add(3);
-        height.add(7);*/
-        //System.out.println(storeWater(height));
-        //System.out.println(storewater(height));
+        height.add(7);
+        System.out.println(storeWater(height));
+        // System.out.println(storewater(height));
        /* ArrayList<Integer> list=new ArrayList<>();
         //1,2,3,4,5
         list.add(1);

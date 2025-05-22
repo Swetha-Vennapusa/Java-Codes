@@ -75,7 +75,7 @@ public class GreedyAlgorithms {
         for(int i=0;i<pairs.length;i++){
             if(pairs[i][0]>chainEnd){
                 chainLength++;
-                   chainEnd=pairs[i][1];
+                chainEnd=pairs[i][1];
             }
         }
         System.out.println("Max Length of Chain = "+chainLength);
@@ -165,23 +165,23 @@ public class GreedyAlgorithms {
         System.out.println("The (min)cost of Chocola = "+cost);
     }
     public static void main(String[] args) {
-        /*int start[]={1,3,0,5,8,5};
-        int end[]={2,4,6,7,9,9};
-        activityselect(start,end);*/
-        /*int val[]={60,100,120};
-        int weight[]={10,20,30};
-        int W=50;
-        fractionalKnapsack(val, weight, W);*/
-        /*int[] A={4,1,8,7};
+        // int start[]={1,3,0,5,8,5};
+        // int end[]={2,4,6,7,9,9};
+        // activityselect(start,end);
+        // int val[]={60,100,120};
+        // int weight[]={10,20,30};
+        // int W=50;
+        // fractionalKnapsack(val, weight, W);
+        int[] A={4,1,8,7};
         int[] B={2,3,6,5};
-        minAbsDiffPairs(A, B);*/
-        /*int[][] pairs={{5,24},{39,60},{5,28},{27,40},{50,90}};
-        MaxLengthChainPairs(pairs);*/
-        /*Integer coins[]={1,2,5,10,20,50,100,500,2000};
-        int amount=590;
-        IndianCoins(coins,amount);*/
-        /*int jobsInfo[][]={{4,20},{1,10},{1,40},{1,30}};
-        JobSequencing(jobsInfo);*/
+        // minAbsDiffPairs(A, B);
+        // int[][] pairs={{5,24},{39,60},{5,28},{27,40},{50,90}};
+        // MaxLengthChainPairs(pairs);
+        // Integer coins[]={1,2,5,10,20,50,100,500,2000};
+        // int amount=590;
+        // IndianCoins(coins,amount);
+        // int jobsInfo[][]={{4,20},{1,10},{1,40},{1,30}};
+        // JobSequencing(jobsInfo);
         int n=4,m=6;
         Integer costVer[]={2,1,3,1,4};
         Integer costHor[]={4,1,2};

@@ -117,16 +117,16 @@ public class recursion2 {
         Scanner sc=new Scanner(System.in);
         // int n=sc.nextInt();
         // towerOfHanoi(n, "S", "H", "D");
+        // String str=sc.next();
+        // int idx=str.length()-1;
+        // printRevString(idx, str);
         String str=sc.next();
-        int idx=str.length()-1;
-        printRevString(idx, str);
-        //String str=sc.next();
-        //findOccurance(0, str, 'a');
-        //moveAllX(str, 0, 0, "");
-        //removeDuplicates(0, str, "");
-        //subsequences(str, 0, "");
-        /*HashSet<String> set=new HashSet<>();
-        unique_subsequences(str, 0, "",set);*/
-        //printComb(str, 0, "");
+        // findOccurance(0, str, 'a');
+        // moveAllX(str, 0, 0, "");
+        // removeDuplicates(0, str, "");
+        // subsequences(str, 0, "");
+        // HashSet<String> set=new HashSet<>();
+        // unique_subsequences(str, 0, "",set);
+        printComb(str, 0, "");
     }
 }

@@ -92,42 +92,42 @@ public class NextGreaterEle {
         System.out.println("MaxArea in histogram ="+maxArea);
     }
     public static void main(String[] args) {
-        /*int arr[]={6,8,0,1,3};
-        Stack<Integer> s=new Stack<>();
-        int[] nextGreater=new int[arr.length];
-        for(int i=arr.length-1;i>=0;i--){
-            //1. WHILE
-            while(!s.isEmpty() && arr[s.peek()]<=arr[i]){
-                s.pop();
-            }
+        // int arr[]={6,8,0,1,3};
+        // Stack<Integer> s=new Stack<>();
+        // int[] nextGreater=new int[arr.length];
+        // for(int i=arr.length-1;i>=0;i--){
+        //     //1. WHILE
+        //     while(!s.isEmpty() && arr[s.peek()]<=arr[i]){
+        //         s.pop();
+        //     }
 
-            //2. IF-ELSE
-            if(s.isEmpty()){
-                nextGreater[i]=-1;
-            }else{
-                nextGreater[i]=arr[s.peek()];
-            }
+        //     //2. IF-ELSE
+        //     if(s.isEmpty()){
+        //         nextGreater[i]=-1;
+        //     }else{
+        //         nextGreater[i]=arr[s.peek()];
+        //     }
 
-            //3. PUSH ELEMENT
-            s.push(i);
-        }
-        for(int i=0;i<nextGreater.length;i++){
-            System.out.print(nextGreater[i]+" ");
-        }
-        System.out.println();*/
+        //     //3. PUSH ELEMENT
+        //     s.push(i);
+        // }
+        // for(int i=0;i<nextGreater.length;i++){
+        //     System.out.print(nextGreater[i]+" ");
+        // }
+        // System.out.println();
 
         //next Greate Right
         //next Greater Left
         //next Smaller Right
         //next Smaller Left
-        // String str="({})[]";
-        // System.out.println(validParenthesis(str));
-        String str="((a+b))";
-        String str2="(a-b)";
+        String str="({})[[]]";
+        System.out.println(validParenthesis(str));
+        // String str="((a+b))";
+        // String str2="(a-b)";
         // System.out.println(isDuplicate(str));
         // System.out.println(isDuplicate(str2));
-        int arr[]={2,1,5,6,2,3};
-        maxArea(arr);
+        // int arr[]={2,1,5,6,2,3};
+        // maxArea(arr);
     }
 }
  

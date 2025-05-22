@@ -31,7 +31,7 @@ public class StackBE {
         reverseStack(s);
         pushAtBottom(s, top);
     }
-    public static void orintStack(Stack<Integer> s){
+    public static void printStack(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
@@ -41,15 +41,15 @@ public class StackBE {
         s.push(1);
         s.push(2);
         s.push(3);
-        //pushAtBottom(s, 4);
-        reverseStack(s);
-        while(!s.isEmpty()){
-            System.out.println(s.peek());
-            s.pop();
-        }
+        // pushAtBottom(s, 4);
+        // reverseStack(s);
+        // while(!s.isEmpty()){
+        //     System.out.println(s.peek());
+        //     s.pop();
+        // }
         
-        /*String str="abc";
+        String str="abc";
         String res=reveString(str);
-        System.out.println("The reverse of the String is: "+res);*/
+        System.out.println("The reverse of the String is: "+res);
     }
 }

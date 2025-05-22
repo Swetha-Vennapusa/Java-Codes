@@ -153,25 +153,25 @@ public class BInarySearch {
             root=insert(root, values[i]);
         }
         // inorder(root);
-        /*if(search(root, 6)){
-            System.out.println("Found");
-        }else{
-            System.out.println("Not Found");
-        }*/
+        // if(search(root, 7)){
+        //     System.out.println("Found");
+        // }else{
+        //     System.out.println("Not Found");
+        // }
         
-        inorder(root); 
-        System.out.println();
-        /*root=delete(root, 1);
-        System.out.println();
-        inorder(root);*/
+        // inorder(root); 
+        // System.out.println(); 
+        root=delete(root, 4);
+        // System.out.println();
+        // inorder(root);
         // int k1=5,k2=12;
         // printInRange(root, k1, k2);
         // printRoot2Leaf(root, new ArrayList<>());
-        /*if(isValidBST(root, null, null)){
-            System.out.println("Valid");
-        }else{
-            System.out.println("not Valid");
-        }*/
+        // if(isValidBST(root, null, null)){
+        //     System.out.println("Valid");
+        // }else{
+        //     System.out.println("not Valid");
+        // }
         root=createMirrot(root);
         preorder(root);
     }

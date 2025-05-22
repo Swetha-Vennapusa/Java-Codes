@@ -69,16 +69,16 @@ public class recursion1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        //printBackNum(n);
-        //printNumb(n);
+        printBackNum(n);
+        // printNumb(n);
         //printSum(1,n,0);
         //System.out.println(calcfactorial(n, 1));
         /*int a=0,b=1;
         System.out.println(a);
         System.out.println(b);
         printFib(a, b, n-2);*/
-        int x=sc.nextInt();
+        // int x=sc.nextInt();
         //System.out.println(calcPower(x,n));
-        System.out.println(calcPowers(x,n));
+        // System.out.println(calcPowers(x,n));
     }
 }

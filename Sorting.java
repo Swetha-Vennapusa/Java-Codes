@@ -7,7 +7,7 @@ public class Sorting {
     }
     public static void bubbleSort(int arr[]){
         //int arr[]={7,8,3,1,2};
-        for(int i=0;i<arr.length-1;i++){
+        for(int i=0;i<arr.length;i++){  //arr.length-1
             for(int j=0;j<arr.length-1-i;j++){
                 if(arr[j]>arr[j+1]){
                     int temp=arr[j];
@@ -68,13 +68,13 @@ public class Sorting {
     public static void main(String[] args) {
         int arr[]={6,3,9,5,2,8};
         int n=arr.length;
-        //bubbleSort(arr);
+        bubbleSort(arr);
         //selection_sort(arr);
         divide(arr, 0, n-1);
         //print
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println();
+        // for(int i=0;i<n;i++){
+        //     System.out.print(arr[i]+" ");
+        // }
+        // System.out.println();
     }  
 }

@@ -1,7 +1,7 @@
 import java.util.*;
 public class recursion3 {
     public static void printPerm(String str,String permutation){
-        if(str.length()==1){
+        if(str.length()==0){
             System.out.println(permutation);;
             return;
         }
@@ -67,14 +67,14 @@ public class recursion3 {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        //String str="abc";
-        //printPerm(str, "");
+        String str="abc";
+        // printPerm(str, "");
         int n=sc.nextInt();
-        //int m=sc.nextInt();
-        //System.out.println(countPaths(0, 0, n, m));
-        //System.out.println(placeTitles(n, m));
+        int m=sc.nextInt();
+        // System.out.println(countPaths(0, 0, n, m));
+        System.out.println(placeTitles(n, m));
         //System.out.println(callGuests(n));
-        ArrayList<Integer>subset=new ArrayList<>();
-        findSubsets(n, subset);
+        // ArrayList<Integer>subset=new ArrayList<>();
+        // findSubsets(n, subset);
     }
 }

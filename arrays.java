@@ -65,7 +65,7 @@ public class arrays {
         return -1;
     }
     public static void WordSearch(String arr[],String key){
-        for(int i=0;i>arr.length;i++){
+        for(int i=0;i<arr.length;i++){
             if(arr[i].equals(key)){
                 System.out.println(i);
             }
@@ -95,7 +95,7 @@ public class arrays {
             if(numbers[mid]==key){
                 return mid;
             }
-            if(numbers[mid]<key){
+            else if(numbers[mid]<key){
                 start=mid+1;
             }
             else{
@@ -213,14 +213,14 @@ public class arrays {
         return isSorted(arr, i+1);
     }
     public static void main(String args[]){
-        //Scanner sc=new Scanner(System.in);
-        //int n=sc.nextInt();
+        Scanner sc=new Scanner(System.in);
+        // int n=sc.nextInt();
         // basicArray();
         //search_number(n);
-        //names_array(n);
+        // names_array(n);
         //min_max(n);
         int[] numbers={2,4,10,8,10};
-        //int key=sc.nextInt();
+        // int key=sc.nextInt();
         /*int index=LinearSearch(numbers,key);
         if(index==-1){
             System.out.println("Not Found");
@@ -228,22 +228,22 @@ public class arrays {
         else{
             System.out.println(key+" is at index "+index);
         }*/
-        /*String[] list={"Apple","Banana","Cat","dog","eagle"};
-        String key=sc.next();
-        WordSearch(list,key);*/
-        //int numbers[]={1,2,6,3,5};
-        //System.out.println("largest value is :"+getLargest(numbers));
-        //System.out.println("Index for key is : "+binarySearch(arr, key));
-        /*reverse(numbers);
-        for(int i=0;i<numbers.length;i++){
-            System.out.print(numbers[i]+" ");
-        }
-        System.out.println();*/
-        //printPair(numbers);
-        //subArrays(numbers);
-        //maxSubArrays(numbers);
-        /*int arr[]={1,-2,6,-1,3};
-        prefixSubArray(arr);*/
+        // String[] list={"Apple","Banana","Cat","dog","eagle"};
+        // String key=sc.next();
+        // WordSearch(list,key);
+        // int numbers[]={1,2,6,3,5};
+        // System.out.println("largest value is :"+getLargest(numbers));
+        // System.out.println("Index for key is : "+binarySearch(numbers, key));
+        // reverse(numbers);
+        // for(int i=0;i<numbers.length;i++){
+        //     System.out.print(numbers[i]+" ");
+        // }
+        // System.out.println();
+        // printPair(numbers);
+        // subArrays(numbers);
+        // maxSubArrays(numbers);
+        int arr[]={1,-2,6,-1,3};
+        prefixSubArray(arr);
         /*int nums[]={-2,-3,4,-1,-2,1,5,-3};
         kadanes(nums);
         sc.close();*/

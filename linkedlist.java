@@ -51,7 +51,7 @@ public class linkedlist {
         }
         System.out.println("null");
     }
-    public void add(int idx,int data){
+    public void addMiddle(int idx,int data){
         if(idx==0){
             addFirst(data);
             return;
@@ -178,7 +178,7 @@ public class linkedlist {
         return slow;  //slow is my middleNode
     }
     public boolean checkPalindrome(){
-        if(head==null || head.next!=null){
+        if(head==null || head.next==null){
             return true;
         }
         //STEP 1:FIND THE MIDDLENODE
@@ -301,16 +301,18 @@ public class linkedlist {
     }
     public static void main(String[] args) {
         linkedlist ll=new linkedlist();
-        //ll.print();
-      //  ll.addFirst(2);
-        //ll.print();
-      //  ll.addFirst(1);
         // ll.print();
-      //  ll.addLast(3);
+        // ll.addFirst(2);
         // ll.print();
-      //  ll.addLast(4);
+        // ll.addFirst(1);
         // ll.print();
-        // ll.add(2,9);
+        // ll.addLast(3);
+        // ll.print();
+        // ll.addLast(4);
+        // ll.print();
+        // ll.addLast(5);
+        // ll.print();
+        // // ll.addMiddle(2,9);
         // ll.print();
         // System.out.println(ll.size);
         // System.out.println(ll.removeFirst());
@@ -318,37 +320,38 @@ public class linkedlist {
         // System.out.println(ll.size);
         // ll.removeLast();
       //  ll.print();
-        //System.out.println(ll.itrSearch(3));
-        //System.out.println(ll.itrSearch(10));
-        //System.out.println(ll.recursiveSearch(3));
-        //System.out.println(ll.recursiveSearch(10));
-        //ll.reverse();
-        //ll.print();
+        // System.out.println(ll.itrSearch(3));
+        // System.out.println(ll.itrSearch(10));
+        // System.out.println(ll.recursiveSearch(3));
+        // System.out.println(ll.recursiveSearch(10));
+        // ll.reverse();
+        // ll.print();
         // ll.removeNthfromEnd(5);
         // ll.print();
         // ll.removeNthfromEnd(3);
         // ll.print();
-        /*ll.addLast(1);
+        ll.addLast(1);
         ll.addLast(2);
         ll.addLast(3);
-        ll.addLast(1);*/
-        //System.out.println(ll.checkPalindrome());
+        ll.addLast(1);
+        // ll.print();
+        // System.out.println(ll.checkPalindrome());
         // ll.addFirst(1);
         // ll.addFirst(2);
         // ll.addFirst(3);
         // ll.addFirst(4);
-        // //ll.addFirst(5);
+        // ll.addFirst(5);
         // ll.print();
-        // ll.head=ll.mergeSort(ll.head);
+        ll.head=ll.mergeSort(ll.head);
+        ll.print();
+        // ll.addLast(1);
+        // ll.addLast(2);
+        // ll.addLast(3);
+        // ll.addLast(4);
+        // ll.addLast(5);
+        // ll.addLast(6  );
         // ll.print();
-        ll.addLast(1);
-        ll.addLast(2);
-        ll.addLast(3);
-        ll.addLast(4);
-        ll.addLast(5);
-        ll.addLast(6  );
-        ll.print();
-        ll.zigZag();
-        ll.print();
+        // ll.zigZag();
+        // ll.print();
     }
 }

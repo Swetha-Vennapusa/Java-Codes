@@ -9,6 +9,8 @@ public class BinaryTrees3 {
             this.right=null;
         }
     }
+
+    //Kth Level of a Tree
     public static void KLevel(Node root,int level,int k){
         if(root==null){
             return;
@@ -20,6 +22,8 @@ public class BinaryTrees3 {
         KLevel(root.left, level+1, k);
         KLevel(root.right, level+1, k);
     }
+
+    //Lowest common Ancestor
     public static boolean getPath(Node root,int n,ArrayList<Node> path){
         if(root==null){
             return false;
@@ -148,13 +152,14 @@ public class BinaryTrees3 {
         root.left.right=new Node(5);
         root.right.left=new Node(6);
         root.right.right=new Node(7);
-        /*int k=2;
-        KLevel(root, 1, k);*/
-        // int n1=4,n2=5  ;
+        // int k=2;
+        // KLevel(root, 1, k);
+        int n1=4,n2=7  ;
         // System.out.println(lca(root, n1, n2).data);
         // System.out.println(lca2(root, n1, n2).data);
         // System.out.println(minDist(root, n1, n2));
-        // int n=5,k=2;
+        int n=5,k=2;
+        // KAncestor(root, n, k);
         // System.out.println(KAncestor(root, n, k));
         /* 
          EXCEPTED TREE

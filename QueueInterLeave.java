@@ -33,8 +33,8 @@ public class QueueInterLeave {
        q.add(8);
        q.add(9);
        q.add(10);
-    //    interLeave(q);
-       reverse(q);  
+       interLeave(q);
+    //    reverse(q);  
        while(!q.isEmpty()){
         System.out.print(q.remove()+" ");;
        }
